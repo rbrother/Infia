@@ -1,0 +1,8 @@
+Molecule=ch3br81,StateName=nu2(k=2),L=2,UseAsLower=0,Energy=0,EnergyError=0,B=0,BError=0,D=0,DError=0,H=0,HError=0,HFixed=1,Band=?
+Molecule=ch3br79,StateName=nu2(k=2),L=2,UseAsLower=0,Energy=0,EnergyError=0,B=0,BError=0,D=0,DError=0,H=0,HError=0,HFixed=1,Band=?
+Molecule=ch3br81,StateName=nu2(k=1),L=1,UseAsLower=0,Energy=1306.23935633264,EnergyError=6.55819154079875E-5,B=0.315822886846861,BError=2.60690320792343E-7,D=3.08788925732544E-7,DError=2.42840594814277E-10,H=-6.33703489329238E-13,HError=6.09431497594676E-14,HFixed=0,Band=?
+Molecule=ch3br79,StateName=nu2(k=1),L=1,UseAsLower=0,Energy=0,EnergyError=0,B=0,BError=0,D=0,DError=0,H=0,HError=0,HFixed=0,Band=?
+Molecule=ch3br81,StateName=nu2(k=0),L=0,UseAsLower=0,Energy=1305.89965169858,EnergyError=5.42441433125569E-5,B=0.315830424469664,BError=1.49673630695787E-7,D=3.09379246154229E-7,DError=9.76214872506821E-11,H=-5.30107452722606E-13,HError=1.69891264814397E-14,HFixed=0,Band=?
+Molecule=ch3br79,StateName=nu2(k=0),L=0,UseAsLower=0,Energy=0,EnergyError=0,B=0,BError=0,D=0,DError=0,H=0,HError=0,HFixed=0,Band=?
+Molecule=ch3br81,StateName=Ground_State,L=0,UseAsLower=1,Energy=0,EnergyError=0,B=0.31794764,BError=0,D=3.26939E-7,DError=0,H=-1.623E-13,HError=0,HFixed=0,Band=?,"Note=From article"
+Molecule=ch3br79,StateName=Ground_State,L=0,UseAsLower=1,Energy=0,EnergyError=0,B=0.319160557,BError=0,D=3.293315E-7,DError=0,H=-1.685E-13,HError=0,HFixed=0,Band=?,"Note=From article"

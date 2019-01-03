@@ -1,0 +1,36 @@
+BandName=AA0a,type=PR,"comment=Älä laita H-parametreja vapaak",color1=0,color2=1,Molecule=DCC79Br,lowerstate=000_0(0)0(0)_0e,upperstate=000_1(1)0(0)_1e,RMSRes=9.10078408424796E-5,Origin=480.6593573
+BandName=AA0b,type=Q,color1=0,color2=3,Molecule=DCC79Br,lowerstate=000_0(0)0(0)_0e,upperstate=000_1(1)0(0)_1f,RMSRes=0.000190235,Origin=480.6592399
+BandName=AA1a,type=PR,"comment=Ylätilalla resonanssia: heikko",color1=0,color2=4,Molecule=DCC79Br,lowerstate=000_0(0)1(1)_1e,upperstate=000_1(1)1(1)_0e,RMSRes=0.000122648,Origin=1056.227997
+BandName=AA1b,type=PR,"comment=L-resonance in the upper state",color1=0,color2=5,Molecule=DCC79Br,lowerstate=000_0(0)1(1)_1e,upperstate=000_1(1)1(1)_2e,RMSRes=0.000122648,Origin=481.8960957
+BandName=AA1c,type=PR,"comment=Karsittu paljon piikkejä 4.9.9",color1=0,color2=6,Molecule=DCC79Br,lowerstate=000_0(0)1(1)_1f,upperstate=000_1(1)1(1)_0f,RMSRes=0.000291706,Origin=479.7009533
+BandName=AA1d,type=PR,"comment=Poistettu paljon huonoja piikk",color1=1,color2=0,Molecule=DCC79Br,lowerstate=000_0(0)1(1)_1f,upperstate=000_1(1)1(1)_2f,RMSRes=0.000230299,Origin=482.1918648
+BandName=AA1q,type=Q,color1=1,color2=2,Molecule=DCC79Br,lowerstate=000_0(0)1(1)_1e,upperstate=000_1(1)1(1)_0f,RMSRes=0.000211771,Origin=479.7015268
+BandName=AA1r,type=Q,color1=1,color2=3,Molecule=DCC79Br,lowerstate=000_0(0)1(1)_1e,upperstate=000_1(1)1(1)_2f,RMSRes=0,Origin=482.1928019
+BandName=AA2a,type=PR,color1=1,color2=4,Molecule=DCC79Br,lowerstate=000_1(1)0(0)_1e,upperstate=000_2(0)0(0)_0e,RMSRes=0.000303313,Origin=474.3451081
+BandName=AA2b,type=PR,"comment=Poistettu paljon huonoja assig",color1=1,color2=5,Molecule=DCC79Br,lowerstate=000_1(1)0(0)_1e,upperstate=000_2(2)0(0)_2e,RMSRes=0.000223911,Origin=484.1443317
+BandName=AA2c,type=PR,"comment=Poistettu huonoja piikkejä ja ",color1=1,color2=6,Molecule=DCC79Br,lowerstate=000_1(1)0(0)_1f,upperstate=000_2(2)0(0)_2f,RMSRes=0.000207962,Origin=484.1442665
+BandName=AA2q,type=Q,color1=2,color2=0,Molecule=DCC79Br,lowerstate=000_1(1)0(0)_1f,upperstate=000_2(0)0(0)_0e,RMSRes=0,Origin=474.3439567
+BandName=AA3a,type=PR,"comment=Hyvä fitness. Erinomainen alat",color1=2,color2=1,Molecule=DCC79Br,lowerstate=000_0(0)2(0)_0e,upperstate=000_1(1)2(0)_1e,RMSRes=0.00020928,Origin=481.6690122
+BandName=AA3b,type=PR,"comment=OK Fitup. Hyvä isotooppipari",color1=2,color2=3,Molecule=DCC79Br,lowerstate=000_0(0)2(2)_2e,upperstate=000_1(1)2(2)_3e,RMSRes=0.000284055,Origin=483.7353538
+BandName=AA3c,type=PR,"comment=Kiva fitness hyvä isotooppipa",color1=2,color2=4,Molecule=DCC79Br,lowerstate=000_0(0)2(2)_2f,upperstate=000_1(1)2(2)_1f,RMSRes=0.000337231,Origin=481.1615366
+BandName=AA3d,type=PR,"comment=Voisi hyvinkin pitää paikkansa",color1=2,color2=5,Molecule=DCC79Br,lowerstate=000_0(0)2(2)_2e,upperstate=000_1(1)2(2)_1e,RMSRes=0.00034734,Origin=481.1617689
+BandName=AA5a,type=PR,"comment=Ei ihan vakuuttava fitness.",color1=2,color2=6,Molecule=DCC79Br,lowerstate=000_1(1)1(1)_2f,upperstate=000_2(2)1(1)_3f,RMSRes=0.000386017,Origin=485.7161786
+BandName=AB0a,type=PR,"comment=Älä laita H-parametreja vapaak",color1=3,color2=0,Molecule=DCC81Br,lowerstate=000_0(0)0(0)_0e,upperstate=000_1(1)0(0)_1e,RMSRes=9.79E-5,Origin=480.6592849
+BandName=AB0b,type=Q,color1=3,color2=1,Molecule=DCC81Br,lowerstate=000_0(0)0(0)_0e,upperstate=000_1(1)0(0)_1f,RMSRes=0.00019966,Origin=480.6595096
+BandName=AB1a,type=PR,"comment=Ylätilalla resonanssia: fitiss",color1=3,color2=2,Molecule=DCC81Br,lowerstate=000_0(0)1(1)_1e,upperstate=000_1(1)1(1)_2e,RMSRes=0.000119942,Origin=481.9067871
+BandName=AB1b,type=PR,"comment=Poistettu huonoja piikkejä 5.9",color1=3,color2=4,Molecule=DCC81Br,lowerstate=000_0(0)1(1)_1f,upperstate=000_1(1)1(1)_0f,RMSRes=0.000142916,Origin=479.7011646
+BandName=AB1c,type=PR,"comment=Poistettu huonoja piikkejä 5.9",color1=3,color2=5,Molecule=DCC81Br,lowerstate=000_0(0)1(1)_1f,upperstate=000_1(1)1(1)_2f,RMSRes=0.000231977347341008,Origin=482.1925922
+BandName=AB1d,type=PR,"comment=Ylätilalla resonanssia: heikko",color1=3,color2=6,Molecule=DCC81Br,lowerstate=000_0(0)1(1)_1e,upperstate=000_1(1)1(1)_0e,RMSRes=0.000119942,Origin=1033.282382
+BandName=AB1q,type=Q,color1=4,color2=0,Molecule=DCC81Br,lowerstate=000_0(0)1(1)_1e,upperstate=000_1(1)1(1)_0f,RMSRes=0,Origin=479.7013338
+BandName=AB1r,type=Q,color1=4,color2=1,Molecule=DCC81Br,lowerstate=000_0(0)1(1)_1e,upperstate=000_1(1)1(1)_2f,RMSRes=0,Origin=482.1917924
+BandName=AB2a,type=PR,"comment=Poistettu huonoja assingnointe",color1=4,color2=2,Molecule=DCC81Br,lowerstate=000_1(1)0(0)_1e,upperstate=000_2(0)0(0)_0e,RMSRes=0.000212436,Origin=474.3419015
+BandName=AB2b,type=PR,color1=4,color2=3,Molecule=DCC81Br,lowerstate=000_1(1)0(0)_1e,upperstate=000_2(2)0(0)_2e,RMSRes=0.00027456,Origin=484.1443698
+BandName=AB2c,type=PR,color1=4,color2=5,Molecule=DCC81Br,lowerstate=000_1(1)0(0)_1f,upperstate=000_2(2)0(0)_2f,RMSRes=0.000282963,Origin=484.1440989
+BandName=AB2q,type=Q,color1=4,color2=6,Molecule=DCC81Br,lowerstate=000_1(1)0(0)_1f,upperstate=000_2(0)0(0)_0e,RMSRes=0,Origin=474.3450089
+BandName=AB3a,type=PR,"comment=Hyvä fitnes. Hyvä isotooppipar",color1=5,color2=0,Molecule=DCC81Br,lowerstate=000_0(0)2(0)_0e,upperstate=000_1(1)2(0)_1e,RMSRes=0.000254033,Origin=481.6480507
+BandName=AB3b,type=PR,"comment=Fitup ei tavattoman hyvä mutt",color1=5,color2=1,Molecule=DCC81Br,lowerstate=000_0(0)2(2)_2e,upperstate=000_1(1)2(2)_3e,RMSRes=0.000474108,Origin=483.7367023
+BandName=AB3c,type=PR,"comment=Ihan kivan näköinen sopivuus.",color1=5,color2=2,Molecule=DCC81Br,lowerstate=000_0(0)2(2)_2f,upperstate=000_1(1)2(2)_1f,RMSRes=0.000294339,Origin=481.1505004
+BandName=AB5a,type=PR,"comment=Hyvä Q-haara hyvä isotooppipa",color1=5,color2=3,Molecule=DCC81Br,lowerstate=000_1(1)1(1)_2f,upperstate=000_2(2)1(1)_3f,RMSRes=0.000458142,Origin=485.71693
+BandName=AX6,type=R,"comment=Ei oikein löydy P-paria",color1=6,color2=3,"Molecule=Unknown Molecule","lowerstate=Unknown State","upperstate=Unknown State",RMSRes=0.000368585,Origin=0
+BandName=AX6b,type=R,"comment=Ei löydy peria P-haarasta mut",color1=6,color2=4,"Molecule=Unknown Molecule","lowerstate=Unknown State","upperstate=Unknown State",RMSRes=0.00056963,Origin=0
+BandName=AX7,type=P,"comment=Hieno P-haara ehkäpä nu3:n m",color1=6,color2=5,"Molecule=Unknown Molecule","lowerstate=Unknown State","upperstate=Unknown State",RMSRes=0.000339535,Origin=480.0866877
