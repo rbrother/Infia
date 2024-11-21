@@ -230,11 +230,11 @@ begin
   state1 := States.Find(strings.values[ResState1], molecule);
   state2 := States.Find(strings.values[ResState2], molecule);
   SetTypeFromString(strings.values[ResElementType]);
-  q.v := strtofloatdef(strings.values[ResPar1]);
-  q.e := strtofloatdef(strings.values[ResPar1Error]);
+  q.v := strtofloatdef(strings.values[ResPar1], 0.0);
+  q.e := strtofloatdef(strings.values[ResPar1Error], 0.0);
   q.Fixed := boolean(strtointdef(strings.values[ResPar1Fixed],0));
-  qj.v := strtofloatdef(strings.values[ResPar2]);
-  qj.e := strtofloatdef(strings.values[ResPar2Error]);
+  qj.v := strtofloatdef(strings.values[ResPar2], 0.0);
+  qj.e := strtofloatdef(strings.values[ResPar2Error], 0.0);
   qj.Fixed := boolean(strtointdef(strings.values[ResPar2Fixed],0));
   comment := strings.values[ResDescription];
 end;
