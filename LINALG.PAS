@@ -117,18 +117,18 @@ var
   NewElement : PHugeArray;
   x,y : integer;
 begin
+  NewElement := AllocMem(NewXSize*NewYSize*sizeof(double));
   if Element = NIL then
-    Create(NewXsize,NewYsize)
+    Element := NewElement
   else begin
-    NewElement := AllocMem(NewXSize*NewYSize*sizeof(double));
     for x := 1 to min(xsize, NewXSize) do
       for y := 1 to min(ysize, NewYSize) do
         NewElement^[(y-1)*xsize+(x-1)] := Element^[(y-1)*xsize+(x-1)];
     FreeMem(Element, xsize*ysize*sizeof(double));
     Element := NewElement;
-    xsize := NewXSize;
-    ysize := NewYSize;
   end;
+  xsize := NewXSize;
+  ysize := NewYSize;
 end;
 
 function TMatrix.GetE(x,y:integer) : double;
@@ -432,16 +432,16 @@ var
   NewElement : PHugeArray;
   y : integer;
 begin
+  NewElement := AllocMem(NewSize*sizeof(double));
   if Element = NIL then
-    Create(Newsize)
+    Element := NewElement
   else begin
-    NewElement := AllocMem(NewSize*sizeof(double));
     for y := 1 to min(size, NewSize) do NewElement^[y-1] := Element^[y-1];
     FreeMem(Element, Size*sizeof(double));
     Element := NewElement;
-    xsize := 1;
-    ysize := NewSize;
   end;
+  xsize := 1;
+  ysize := NewSize;
 end;
 
 function TVector.PolynomeValue(x : double) : double;
