@@ -2,11 +2,11 @@ program infia;
 
 uses
   Forms,
-  Specwin in 'SPECWIN.PAS' {SpectraWindow},
+  SPECWIN in 'SPECWIN.PAS' {SpectraWindow},
   StateUnit in 'StateUnit.pas',
-  Analwin in 'ANALWIN.PAS' {AnalyseWindow},
-  Options in 'OPTIONS.PAS',
-  About in 'ABOUT.PAS' {AboutBox},
+  ANALWIN in 'AnalWin.pas' {AnalyseWindow},
+  OPTIONS in 'OPTIONS.PAS',
+  ABOUT in 'ABOUT.PAS' {AboutBox},
   spectra in 'spectra.pas',
   AssignmentUnit in 'AssignmentUnit.pas' {AssignmentForm},
   PeakUnit in 'PeakUnit.pas' {PeakForm},
@@ -24,13 +24,13 @@ uses
   Utils in 'Utils.pas',
   ScriptUnit in 'ScriptUnit.pas' {ScriptForm},
   MathUtils in 'MathUtils.pas',
-  linalg in 'LINALG.PAS',
-  imslmath in 'IMSLMATH.PAS',
+  LINALG in 'LINALG.PAS',
+  IMSLMATH in 'IMSLMATH.PAS',
   ParameterUnit in 'ParameterUnit.pas',
   FormulaUnit in 'FormulaUnit.pas',
   NonlinearOptimisation in 'NonlinearOptimisation.pas',
-  resample in 'RESAMPLE.PAS',
-  simplex in 'SIMPLEX.PAS';
+  RESAMPLE in 'RESAMPLE.PAS',
+  SIMPLEX in 'SIMPLEX.PAS';
 
 {$R *.RES}
 
