@@ -209,7 +209,7 @@ begin
   OpenDialog.DefaultExt := DefaultExt;
   OpenDialog.FileName := '';
   newdir := MyRegistry.ReadString('DefaultDirectory');
-  if not DirectoryExists(newdir) then newdir := '';
+  if not SysUtils.DirectoryExists(newdir) then newdir := '';
   OpenDialog.InitialDir := newdir;
   OK_Pressed := OpenDialog.Execute; // return the return value of the dialog
   if OK_Pressed then begin
