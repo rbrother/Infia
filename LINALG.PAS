@@ -11,7 +11,7 @@ const
 type
 
   TMatrix = class(TPersistent)
-  private
+  protected
     Element : PHugeArray;
     function GetE(x,y:integer) : double;
     procedure SetE(x,y:integer; v:double);
@@ -48,7 +48,7 @@ type
   end;
 
   TVector = class(TMatrix)
-  private
+  protected
     function GetE(y:integer) : double;
     procedure SetE(y:integer; v:double);
   public
@@ -66,7 +66,7 @@ type
   end;
 
   TSymmetricMatrix = class(TSquareMatrix)
-  private
+  protected
     procedure SetE(x,y:integer; v:double);
   public
     property EVal[x,y : integer] : double read GetE write SetE; default;
