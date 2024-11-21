@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
-  DB, DBTables, ExtCtrls, DBCtrls, Grids, DBGrids,
+  DB, ExtCtrls, DBCtrls, Grids, DBGrids,
 
   linalg, ParameterUnit, AdvancedList, Moleculeunit;
 
