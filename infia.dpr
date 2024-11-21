@@ -20,17 +20,17 @@ uses
   InfiaLogoUnit in 'InfiaLogoUnit.pas' {InfiaDialog},
   BranchCombinationUnit in 'BranchCombinationUnit.pas' {CombForm},
   debug in 'debug.pas',
-  AdvancedList in '..\Delphi Components\AdvancedList.pas',
-  Utils in '..\Delphi Components\Utils.pas',
-  ScriptUnit in '..\Delphi Components\ScriptUnit.pas' {ScriptForm},
-  MathUtils in '..\Delphi Components\MathUtils.pas',
-  linalg in '..\Delphi Components\LINALG.PAS',
-  imslmath in '..\Delphi Components\IMSLMATH.PAS',
-  ParameterUnit in '..\Delphi Components\ParameterUnit.pas',
-  FormulaUnit in '..\Delphi Components\FormulaUnit.pas',
-  NonlinearOptimisation in '..\Delphi Components\NonlinearOptimisation.pas',
-  resample in '..\Delphi Components\RESAMPLE.PAS',
-  simplex in '..\Delphi Components\SIMPLEX.PAS';
+  AdvancedList in 'AdvancedList.pas',
+  Utils in 'Utils.pas',
+  ScriptUnit in 'ScriptUnit.pas' {ScriptForm},
+  MathUtils in 'MathUtils.pas',
+  linalg in 'LINALG.PAS',
+  imslmath in 'IMSLMATH.PAS',
+  ParameterUnit in 'ParameterUnit.pas',
+  FormulaUnit in 'FormulaUnit.pas',
+  NonlinearOptimisation in 'NonlinearOptimisation.pas',
+  resample in 'RESAMPLE.PAS',
+  simplex in 'SIMPLEX.PAS';
 
 {$R *.RES}
 
