@@ -2,7 +2,7 @@ unit Spectra;
 
 interface
 
-uses Classes, WinProcs, WinTypes, Dialogs, SysUtils, Math;
+uses System.Variants, Classes, WinProcs, WinTypes, Dialogs, SysUtils, Math;
 
 type
   // Use very large maximum index in the arrays: we only allocate
