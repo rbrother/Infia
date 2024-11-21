@@ -6,9 +6,6 @@ uses
   Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs,
   PeakUnit, ExtCtrls, math;
 
-const
-  TempBmSize = 2.0; // relative size of temp bitmap
-
 type
   // Declaration of the window containing the loomis-wood plot
   TLoomisForm = class(TForm)
@@ -64,7 +61,7 @@ implementation
 {$R *.DFM}
 
 uses StateUnit, BandUnit, AssignmentUnit, linalg, Specwin,
-  Analwin, LoomisParamsUnit, mathutils, resample, utils;
+  Analwin, LoomisParamsUnit, mathutils, utils;
 
 function TLoomisForm.xstep : double;
 begin
@@ -131,9 +128,9 @@ var
 begin
   BringToFront;
   Drawing := true;
-  TempBitmap := TBitmap.Create;
-  TempBitmap.Width := trunc(LoomisImage.Width * TempBmSize);
-  TempBitmap.Height := trunc(LoomisImage.Height * TempBmSize);
+  LoomisImage.Picture.Bitmap.Width := LoomisImage.Width;
+  LoomisImage.Picture.Bitmap.Height := LoomisImage.Height;
+  TempBitmap := LoomisImage.Picture.Bitmap;
   if Columns = 0 then StraightenBand; // Must calculate scale before drawing
   // Establish a connection between the columns and band m-values
   with ActiveBand do with Assignments[Assignments.count div 2] do
@@ -174,10 +171,6 @@ begin
     else DrawPeak(TempBitmap.canvas, peak, clBlack, col2);
   end;
   // To supersample, reduce plot size
-  LoomisImage.Picture.Bitmap.Width := LoomisImage.Width;
-  LoomisImage.Picture.Bitmap.Height := LoomisImage.Height;
-  Strecth(TempBitmap, LoomisImage.Picture.Bitmap, Lanczos3Filter, 3.0);
-  TempBitmap.Free;
   Caption := format('Loomis-Wood plot - Band %s straightened',[ActiveBand.Name]);
   Inverted := false;
   Drawing := false;

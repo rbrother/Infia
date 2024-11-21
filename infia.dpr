@@ -4,7 +4,7 @@ uses
   Forms,
   SPECWIN in 'SPECWIN.PAS' {SpectraWindow},
   StateUnit in 'StateUnit.pas',
-  ANALWIN in 'AnalWin.pas' {AnalyseWindow},
+  AnalWin in 'AnalWin.pas' {AnalyseWindow},
   OPTIONS in 'OPTIONS.PAS',
   ABOUT in 'ABOUT.PAS' {AboutBox},
   spectra in 'spectra.pas',
@@ -29,7 +29,6 @@ uses
   ParameterUnit in 'ParameterUnit.pas',
   FormulaUnit in 'FormulaUnit.pas',
   NonlinearOptimisation in 'NonlinearOptimisation.pas',
-  RESAMPLE in 'RESAMPLE.PAS',
   SIMPLEX in 'SIMPLEX.PAS';
 
 {$R *.RES}
