@@ -2,5 +2,47 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2024-11-21 14:19:16.000.609,C:\github\Infia\RESAMPLE.PAS=</Transaction>
-  </Transactions>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="ABOUT.PAS"/>
+    <File Path="ABOUT.dfm"/>
+    <File Path="AdvancedList.pas"/>
+    <File Path="AnalWin.pas"/>
+    <File Path="AnalWin.dfm"/>
+    <File Path="AssignmentUnit.pas"/>
+    <File Path="AssignmentUnit.dfm"/>
+    <File Path="BandUnit.pas"/>
+    <File Path="BandUnit.dfm"/>
+    <File Path="BranchCombinationUnit.pas"/>
+    <File Path="BranchCombinationUnit.dfm"/>
+    <File Path="debug.pas"/>
+    <File Path="FormulaUnit.pas"/>
+    <File Path="IMSLMATH.PAS"/>
+    <File Path="InfiaLogoUnit.pas"/>
+    <File Path="InfiaLogoUnit.dfm"/>
+    <File Path="LINALG.PAS"/>
+    <File Path="LoomisParamsUnit.pas"/>
+    <File Path="LoomisParamsUnit.dfm"/>
+    <File Path="LoomisUnit.pas"/>
+    <File Path="LoomisUnit.dfm"/>
+    <File Path="MathUtils.pas"/>
+    <File Path="MoleculeUnit.pas"/>
+    <File Path="MoleculeUnit.dfm"/>
+    <File Path="NonlinearOptimisation.pas"/>
+    <File Path="OPTIONS.PAS"/>
+    <File Path="ParameterUnit.pas"/>
+    <File Path="PeakUnit.pas"/>
+    <File Path="PeakUnit.dfm"/>
+    <File Path="ResonanceUnit.pas"/>
+    <File Path="ResonanceUnit.dfm"/>
+    <File Path="ScriptUnit.pas"/>
+    <File Path="ScriptUnit.dfm"/>
+    <File Path="ScrollUnit.pas"/>
+    <File Path="SIMPLEX.PAS"/>
+    <File Path="spectra.pas"/>
+    <File Path="SPECWIN.PAS"/>
+    <File Path="SPECWIN.dfm"/>
+    <File Path="StateUnit.pas"/>
+    <File Path="Utils.pas"/>
+    <File Path="Vibrational.pas"/>
+  </ProjectSortOrder>
 </BorlandProject>
