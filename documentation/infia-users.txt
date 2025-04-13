@@ -1,0 +1,208 @@
+Collected from emails, look also excel file with users
+----------------------------
+
+From: Robert Brotherus <robert@iki.fi>
+To: "Dr. Otto Dopfer" <dopfer@ubaclu.unibas.ch>
+Subject: Re: Fit program
+In-Reply-To: <Pine.PMDF.3.95.980910131250.540337275A-100000@ubaclu.unibas.ch>
+
+At 01:13 PM 9/10/98 +0200, Dr. Otto Dopfer wrote:
+> we were discussing your program at the Prague meeting. Can you provide me
+> some details how and where to get it?
+
+Thank you for your interest in my fitting program.  
+
+At the moment I am busily writing some preliminary users manual for the program, 
+and preparing a package for distribution with FTP. This should be ready in a few days 
+and I will write you then to tell the download location and installation instructions.
+
+---------------
+
+TO: Mark M Law, University of Aberdeen
+To: m.m.law@abdn.ac.uk, dopfer@ubaclu.unibas.ch
+From: Robert Brotherus <robert@iki.fi>
+Subject: Infia spectrum analysis program
+
+The present distribution package with some preliminary documantation can be downloaded from:
+
+ftp://fkmarilyn.pc.helsinki.fi/infia/
+
+---------------
+
+From: phc34@rz.uni-kiel.d400.de
+Date: Thu, 18 Sep 1997 19:03:33 +0200
+To: ROBERT.BROTHERUS@csc.fi
+Subject: LOOMIS-WOOD
+
+Dear Robert Brotherus,
+           on the recent conference on high res. mol. spectroscopy in
+Glasgow I noted the poster H25 on DCCBr by you, Vaittinen, and Halonen.
+O.Vaitt. told me that the Loomis-Wood program used for a poster picture
+had been written by you, as far as he knew independently of previous
+L.-W. programs.
+           For many years I have been involved in spectroscopy using the
+L.-W. technique, and I should like to hear more about your approach to
+the problem - eventually a copy of your program, if you have a final
+version. In return I can offer a copy of our L.-W. program as described
+in J.Mol.Spectrosc. 152, 206 (1992). The program is for MS-DOS on IBM-
+type Pc.s.
+           Best regards:
+                                       Flemming Winther
+Kiel, sept.19th, 1997
+
+----------------
+
+Date: Mon, 21 Sep 1998 16:52:37 -0700 (PDT)
+From: Rohidas Kshirsagar <rohidas@hertz2.arc.nasa.gov>
+Message-Id: <199809212352.QAA09920@hertz2.arc.nasa.gov>
+To: ROBERT@IKI.FI
+Subject: Computer Program
+Cc: rbrother@cc.helsinki.fi
+
+To: Dr. Robert Brotherus
+    Laboratory of Physical Chemistry
+    P.O. Box 55, 00014 Helsinki University, FINLAND.
+        
+Dear Dr. Brotherus,
+
+	It was very nice to meet you and see and discuss your posters at the 
+High resolution spectroscopy conference at Prague in August 1998. I am very 
+impressed about your work, posters and the software program for analysis of the  
+vibration-rotation spectra. Will you please send me the computer program and 
+zerox copy of the posters explaning the program in detail. I will also be very 
+grateful if you could send me the zerox copy of the posters of theory part of 
+the analysis of the linear molecules.
+	
+	Thanking you very much and hope to hear from you.
+	
+Sincerely,
+
+Rohidas Kshirsagar
+NASA/Ames Research Center
+Moffett Field, MS 245-4,
+CA 94035-1000, U.S.A.
+
+------------------
+
+Date: 1999-09-14
+To: lecoutre@lsh.univ-lille1.fr (Michaël)
+From: Robert Brotherus <robert@iki.fi>
+Subject: Re:  Infia
+
+At 10:44 AM 9/14/99 +0200, Michaël wrote:
+>
+>        Can you send me a copy of your program ?
+>        I work with win95, and a pentium processor.
+
+Thank you for your interest!
+
+The download site is:
+http://fkassistant.pc.helsinki.fi/infia/infia.html
+
+------------------
+
+1999-09-13
+To: "Michel Cordonnier" <mcordonn@earthlink.net>
+From: Robert Brotherus <robert@iki.fi>
+Subject: Re: HRMS99
+In-Reply-To: <000301beff90$d870d7c0$ec59f4d1@colorado.edu>
+
+At 09:19 AM 9/15/99 -0400, Michel Cordonnier wrote:
+>    I appreciated very much discussing with you during the hrms conference;
+>your poster / computer presentation was really interesting. As I mentionned
+>to you, I would like to learn more about INFIA and I would be glad if you
+>could address me a copy of your software. Would this be possible ?
+
+Thank you for your interest!
+
+The download site of Infia is:
+http://fkassistant.pc.helsinki.fi/infia/infia.html
+
+Please send me and comments, questions and bug reports!
+
+---------------------
+
+1999-09-23
+To: "Olga Naumenko" <olga@asd.acad.tomsk.su>
+From: Robert Brotherus <robert@iki.fi>
+Subject: Re: Infia spectrum analysis
+In-Reply-To: <199909131132.TAA17286@intra.iao.ru>
+
+Hi Olga Naumenko!
+
+At 12:07 PM 8/23/99 +0300, Olga Naumenko wrote:
+>  I would be very much grateful if you could
+> send me the reference on the paper (or, even better,
+> the reprint, since we have no possibilities to get 
+> many scientific journals) 
+
+I have sent a reprint to the address you gave.
+
+Please find the program installation package at
+
+http://fkassistant.pc.helsinki.fi/infia/infia.html
+
+> In our Institute of Atmospheric optics in Tomsk the analogous
+> system for asymmetric top rovibrational spectra assignment
+> is created and successfuly aplied to the H2O, HDO, D2O, H2S
+> high resolution spectra identification. This system uses
+> the Pattern recognition theory to choose the best variant
+> between many examples of the combination differencies.
+
+I have heard of this approach (perhaps in Prague98 conference?) 
+It was interesting. As you might be aware, Infia also uses conbination 
+differences for assignments (as described in the article).
+
+>  You can find the description of this system in:
+>' Application of pattern recognition theory to
+> identification of the rovibrational spectral lines',
+> A.P. Shcherbakov, Atmos. Oceanic Opt., vol. 10, No.8,
+> p. 591 - 597 (1997).
+>  I can send to you the reprint of this paper, if you
+> have no such journal.
+
+We certainly don't have that journal and I would be 
+interested in this article, so please send me a reprint. Address is:
+
+Robert Brotherus
+Laboratory of Physical Chemistry
+P.O.BOX 55
+FI-00014 University of Helsinki
+FINLAND
+
+-----------------------
+
+From - Sat Feb 17 10:46:57 2001
+Date: Sat, 17 Feb 2001 10:46:56 +0200
+From: Robert Brotherus <robert@iki.fi>
+Organization: Labsystems oy
+To: Maurits van der Schaar <Maurits.van.der.Schaar@asml.nl>
+Subject: Re: infia
+
+Thank you for your interest in INFIA spectrum analysis software. You can
+download the latest version from:
+
+http://fkassistant.pc.helsinki.fi/infia/download.html
+
+Please note that I have moved to work in the industry about 2 years ago
+and do not actively support or develop infia further.
+
+Robert Brotherus
+
+Maurits van der Schaar wrote:
+
+> Hi,
+> I am interested in Infia for IR spectrum analysis
+> Maurits.
+> --
+> _______________________________________________
+> Maurits van der Schaar
+> ASML
+> Measurement Systems Development
+> Building 7B2009
+> De Run 6665, 5504 DT Veldhoven, the Netherlands
+>
+> phone:  +31 40 2685042
+> fax:    +31 40 2684999
+> email: Maurits.van.der.Schaar@asml.nl
+> _______________________________________________
